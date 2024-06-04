@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Shop Direct</title>
+    <title>Product Lists</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,7 +12,6 @@
     
 </head>
 <body>
-    <!-- header -->
     <header>
         <div class="logo-container">
             <a href="index.html"><img src="infoimages\logo.png" alt="Pet Shop Direct Logo"></a>
@@ -34,13 +33,13 @@
     <nav>
         <ul>
             <li><a href="#">Category</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">About</a></li>
             <li class="nav-item">
-                <a href="#">Dog</a>
+                <a href="productlist.html">Dog</a>
                 <div class="dropdown">
                     <ul>
-                        <li><a href="#">Dog Food</a></li>
+                        <li><a href="productbrand.html">Dog Food</a></li>
                         <li><a href="#">Flea Treatment for Dogs</a></li>
                         <li><a href="#">Dog Toys</a></li>
                         <li><a href="#">Dog Cleaning & Odour</a></li>
@@ -72,7 +71,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="#">Cat</a>
+                <a href="productlist.html">Cat</a>
                 <div class="dropdown">
                     <ul>
                         <li><a href="#">Cat Food</a></li>
@@ -102,7 +101,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="#">Bird</a>
+                <a href="productlist.html">Bird</a>
                 <div class="dropdown">
                     <ul>
                         <li><a href="#">Premium Bird Foods</a></li>
@@ -191,135 +190,32 @@
         </ul>
     </nav>
 
-    <!--main-->
-
+<!-- main -->
     <main>
-        <div class="carousel">
-            <div class="slides">
-                <img src="infoimages\banner3_birds-3.jpg" alt="Image 1">
+        <div class="cart-popup">
+            <div class="cart-popup-content">
+                <a href="productpage.html"><span class="close">&times;</span></a>
+                <h2>✔ Added to your cart:</h2>
+                <div class="cart-item">
+                    <img src="infoimages\meals for mutts\meals-for-mutts-turkey-salmon--sardine-puppy-formula-2.5kg.png" alt="Meals For Mutts Turkey, Salmon & Sardine PUPPY 2.5kg">
+                    <div class="cart-item-details">
+                        <p>Meals For Mutts Turkey, Salmon & Sardine PUPPY 2.5kg</p>
+                        <p>1 x $38.95</p>
+                    </div>
+                </div>
+                <p class="cart-subtotal">Cart subtotal: $38.95</p>
+                <div class="cart-buttons">
+                    <a href="mealsformutts.html"><button class="continue-shopping">Continue Shopping</button></a>
+                    <a href="shoppingcart.html"><button class="view-cart">View Cart</button></a>
+                    <a href="checkout.html"><button class="checkout">Checkout</button></a>
+                </div>
             </div>
         </div>
-        <div class="button-links">
-            <a href="productlist.html"><img src="infoimages\dog02.jpg" alt="Button Dog"></a>
-            <a href="productlist.html"><img src="infoimages\cat02.jpg" alt="Button Cat"></a>
-            <a href="productlist.html"><img src="infoimages\bird02.jpg" alt="Button Bird"></a>
-            <a href="productlist.html"><img src="infoimages\fish02.jpg" alt="Button Fish"></a>
-            <a href="productlist.html"><img src="infoimages\small02.jpg" alt="Button small"></a>
-            <a href="productlist.html"><img src="infoimages\reptile02.jpg" alt="Button Reptile"></a>
-        </div>
-        <div class="separator"></div>
-        <div class="about-us">
-            <h2>About Us</h2>
-            <div class="about-content">
-                <ul>
-                    <li>- Welcome to Pet Shop Direct, your <strong>one-stop online</strong> pet store.</li>
-                    <li>- <strong>Discount sale prices</strong> and <strong>great value</strong> on pet supplies and quality pet care products.</li>
-                    <li>- Explore our pet shop online for the <strong>best products</strong> for your pet.</li>
-                    <li>- Australia's <strong>largest range of Bird Supplies</strong>, including Bird Cages, Bird Toys, Parrot Toys, and much more.</li>
-                    <li>- <strong>Fast delivery</strong> Australia wide.</li>
-                </ul>
-                <ul>
-                    <li>We offer a huge range of Pet Supplies, Dog Supplies, Cat Supplies, Cat Litter Crystals, Crystal Cat Litter, Dog Crates, Puppy Pens, Puppy Training Pads, Dog Kennels, Rabbit Hutches, Cat Scratching Post, Flea Treatment for Dogs, Dog clippers, Designer Dog Beds, Reptile Supplies, Fish Tank Ornaments, Fish Tank Filters, Reptile & Aquarium Globes, Fish Foods, Pet doors, Bird Cages, Bird Seed, Bird Supplies, Bird Toys, Parrot Toys, Organic Dog Food, Vegan Dog Food, Vetafarm Bird Food, Zupreem + much more. Your one stop Pet Store</li>
-                </ul>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <!-- New Product -->
-        <div class="new-product">
-            <h2>New Product</h2>
-            <div class="product-grid">
-                <!-- Product Item -->
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\sweet-feet--beak-safety-perch-medium - 副本.jpg" alt="Product 1"></a>
-                    <h3>Sweet Feet & Beak Safety Perch Medium</h3>
-                    <p class="price">$19.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\sweet-feet--beak-safety-perch-x-large - 副本.jpg" alt="Product 2"></a>
-                    <h3>Sweet Feet & Beak Safety Perch X-Large</h3>
-                    <p class="price">$44.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\livingworld-safety-perch-large.jpg" alt="Product 3"></a>
-                    <h3>Sweet Feet & Beak Safety Perch Large</h3>
-                    <p class="price">$29.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div> 
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\blackdog-lamb-ears-10pk - 副本.jpg" alt="Product 4"></a>
-                    <h3>Black Lamb Ears 10 Pack</h3>
-                    <p class="price">$19.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\terra-pure-lavender-clumping-cat-litter-10kg.jpg" alt="Product 5"></a>
-                    <h3>Terra Pure LAVENDER Clumping Cat Litter 10kg</h3>
-                    <p class="price">$15.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\drontal-allwormer-tablet-2-x-6kg-tablets-large-cats - 副本.jpg" alt="Product 6"></a>
-                    <h3>Drontal Allwormer Tablets For Large Cats 2 x 6kg Tablets</h3>
-                    <p class="price">$22.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\the-pet-project-bully-sticks-5-pack - 副本.jpg" alt="Product 7"></a>
-                    <h3>The Pet Project Bully Sticks 5 Pack</h3>
-                    <p class="price">$24.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <a href="product-page.html"><img src="infoimages\the-pet-project-lamb-ears-4-pack - 副本.jpg" alt="Product 8"></a>
-                    <h3>The Pet Project Lamb Ears 4 Pack</h3>
-                    <p class="price">$13.95</p>
-                    <hr>
-                    <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                </div>
-            </div>
-            <div class="view-all-container">
-                <a href="product-list.html" class="view-all">View All</a>
-            </div>
-            <div class="separator"></div>
-            <div class="top-brand">
-                <h2>Top Brand</h2>
-                <div class="brand-logos">
-                    <img src="infoimages\Group 380.jpg" alt="Royal Canin">
-                    <img src="infoimages\Group 381.jpg" alt="Canidae">
-                    <img src="infoimages\Group 382.jpg" alt="Vets All Natural">
-                    <img src="infoimages\Rectangle 184.jpg" alt="Pro Plan">
-                    <img src="infoimages\Group 383.jpg" alt="Eukanuba">
-                    <img src="infoimages\Group 384.jpg" alt="Advance">
-                    <img src="infoimages\Group 385.jpg" alt="Science Diet">
-                    <img src="infoimages\Group 386.jpg" alt="Meals for Mutts">
-                </div>
-            </div>
-    
-            <!-- Separator -->
-            <div class="separator"></div>
-    
-            <!-- Promo Section -->
-            <div class="promo-section">
-                <div class="promo-item">
-                    <img src="infoimages\image 32.jpg" alt="Promo 1">
-                </div>
-                <div class="promo-item">
-                    <img src="infoimages\image 5.jpg" alt="Promo 2">
-                </div>
-            </div>
+
     </main>
 
-    <!--footor-->
-
+<!-- footer -->
+    <!-- footer -->
     <footer>
         <div class="footer-container">
             <div class="newsletter">
@@ -370,6 +266,8 @@
             <p>Copyright © 2023 Pet Shop Direct | Domain hosted by Melbourne IT</p>
         </div>
     </footer>
+
+
     <script src="homepage.js"></script>
 </body>
 </html>

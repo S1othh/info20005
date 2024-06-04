@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Lists</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc52d5e3b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homepage.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="infoimages\logo.png" alt="Pet Shop Direct Logo"></a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="What are you looking for?">
+            <a href="productbrand.html"><button type="submit"><i class="fas fa-search"></i></button></a>
+        </div>
+        <div class="user">
+            <a href="#" class="Log in / Sign up"><i class="fa-regular fa-user"></i></i>Log In / Sign Up</a>
+        </div>
+        <div class="user-options">
+            <a href="shoppingcart.html" class="checkout"><i class="fas fa-shopping-cart"></i> Checkout</a>
+            <span id="cart-count" class="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- drop dowm menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Category</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="nav-item">
+                <a href="productlist.html">Dog</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="productbrand.html">Dog Food</a></li>
+                        <li><a href="#">Flea Treatment for Dogs</a></li>
+                        <li><a href="#">Dog Toys</a></li>
+                        <li><a href="#">Dog Cleaning & Odour</a></li>
+                        <li><a href="#">Dog Beds</a></li>
+                        <li><a href="#">Dog Clippers</a></li>
+                        <li><a href="#">Dog Dental</a></li>
+                        <li><a href="#">Dog Grooming</a></li>
+                        <li><a href="#">Dog Waste Products</a></li>
+                        <li><a href="#">Dog Health Care</a></li>
+                        <li><a href="#">Dog Nursing & First Aid</a></li>
+                        <li><a href="#">Puppy Pens & Gates</a></li>
+                        <li><a href="#">Tethering</a></li>
+                        <li><a href="#">Dog Crates & Carriers</a></li>
+                        <li><a href="#">Dog Treats</a></li>
+                        <li><a href="#">Dog Worming</a></li>
+                        <li><a href="#">Dog Kennels</a></li>
+                        <li><a href="#">Dog Behavioural</a></li>
+                        <li><a href="#">Dog Collar-Harness-Lead</a></li>
+                        <li><a href="#">Dog Bowls</a></li>
+                        <li><a href="#">Dog Coats & Vests</a></li>
+                        <li><a href="#">Dog Doors</a></li>
+                        <li><a href="#">Dog Shampoo</a></li>
+                        <li><a href="#">Flies & Mosquito</a></li>
+                        <li><a href="#">Joint Health</a></li>
+                        <li><a href="#">Pet Ramps & Steps</a></li>
+                        <li><a href="#">Puppy Training Pads</a></li>
+                        <li><a href="#">Travel Products</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="productlist.html">Cat</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Cat Food</a></li>
+                        <li><a href="#">Cat Toys</a></li>
+                        <li><a href="#">Cat Litter</a></li>
+                        <li><a href="#">Cat Flea & Tick</a></li>
+                        <li><a href="#">Cat Scratching Post</a></li>
+                        <li><a href="#">Cat Bowls</a></li>
+                        <li><a href="#">Cat Carriers</a></li>
+                        <li><a href="#">Cat Collars & Harnesses & Lead</a></li>
+                        <li><a href="#">Cat Grooming</a></li>
+                        <li><a href="#">Cat Travel</a></li>
+                        <li><a href="#">Feeders & Fountains</a></li>
+                        <li><a href="#">Cat Treats</a></li>
+                        <li><a href="#">Cat Beds</a></li>
+                        <li><a href="#">Cat Litter Trays & Boxes</a></li>
+                        <li><a href="#">Cat Worming</a></li>
+                        <li><a href="#">Cat Behavioural</a></li>
+                        <li><a href="#">Cat Care</a></li>
+                        <li><a href="#">Cat Cleaning & Odour</a></li>
+                        <li><a href="#">Cat Dental</a></li>
+                        <li><a href="#">Cat Doors</a></li>
+                        <li><a href="#">Cat Shampoo</a></li>
+                        <li><a href="#">Electric Clippers</a></li>
+                        <li><a href="#">Nursing & First Aid Kit</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="productlist.html">Bird</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Premium Bird Foods</a></li>
+                        <li><a href="#">Bulk Bird Seed</a></li>
+                        <li><a href="#">Bird Treats</a></li>
+                        <li><a href="#">Bird Swings</a></li>
+                        <li><a href="#">Bird Perches</a></li>
+                        <li><a href="#">Bird Hand Rearing</a></li>
+                        <li><a href="#">Bird Medications</a></li>
+                        <li><a href="#">Bird Mite & Lice</a></li>
+                        <li><a href="#">Bird Baths</a></li>
+                        <li><a href="#">Bird Carriers</a></li>
+                        <li><a href="#">Bird Feather Plucking</a></li>
+                        <li><a href="#">Bird First Aid</a></li>
+                        <li><a href="#">Bird Heating & Lighting</a></li>
+                        <li><a href="#">Bird Litter</a></li>
+                        <li><a href="#">Bird Rings & Bands</a></li>
+                        <li><a href="#">Cage Tidies & Covers</a></li>
+                        <li><a href="#">Sand & Grit</a></li>
+                        <li><a href="#">Bird Seed</a></li>
+                        <li><a href="#">Lorikeet Food</a></li>
+                        <li><a href="#">Bird Cages</a></li>
+                        <li><a href="#">Bird Toys</a></li>
+                        <li><a href="#">Treat Holders</a></li>
+                        <li><a href="#">Vitamins & Minerals</a></li>
+                        <li><a href="#">Bird Worming</a></li>
+                        <li><a href="#">Disinfectant-Cleaners</a></li>
+                        <li><a href="#">Bird Breeding</a></li>
+                        <li><a href="#">Bird Diapers</a></li>
+                        <li><a href="#">Bird Feeders</a></li>
+                        <li><a href="#">Bird Harnesses</a></li>
+                        <li><a href="#">Bird Huts & Houses</a></li>
+                        <li><a href="#">Bird Nets</a></li>
+                        <li><a href="#">Bird Training</a></li>
+                        <li><a href="#">Nail & Beak Care</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#">Fish</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Fish Food</a></li>
+                        <li><a href="#">Aquariums & Fish Tanks</a></li>
+                        <li><a href="#">Air Pumps</a></li>
+                        <li><a href="#">Aquarium Cleaning & Maintenance</a></li>
+                        <li><a href="#">Aquarium Spare Parts</a></li>
+                        <li><a href="#">Breeding Accessories</a></li>
+                        <li><a href="#">Filter Media</a></li>
+                        <li><a href="#">Fish Beneficial Bacteria</a></li>
+                        <li><a href="#">Fish Tank Gravel</a></li>
+                        <li><a href="#">Hoses</a></li>
+                        <li><a href="#">Medications</a></li>
+                        <li><a href="#">Powerheads</a></li>
+                        <li><a href="#">Water Test Kits</a></li>
+                        <li><a href="#">Filters</a></li>
+                        <li><a href="#">Fish Tank Ornaments</a></li>
+                        <li><a href="#">Algae Control</a></li>
+                        <li><a href="#">Aquarium Plant Care</a></li>
+                        <li><a href="#">Aquarium Salt</a></li>
+                        <li><a href="#">Aquarium Water Conditioners</a></li>
+                        <li><a href="#">Fighter Fish Bettas</a></li>
+                        <li><a href="#">Fish Auto Feeders</a></li>
+                        <li><a href="#">Fish Nets</a></li>
+                        <li><a href="#">Heaters</a></li>
+                        <li><a href="#">Light Units</a></li>
+                        <li><a href="#">Pond</a></li>
+                        <li><a href="#">Seachem</a></li>
+                    </ul>
+                </div>
+            </li>
+           
+            <li class="nav-item">
+                <a href="#">Small Animal</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="#">Rabbits & Guinea Pigs</a></li>
+                        <li><a href="#">Mice & Rat Supplies</a></li>
+                        <li><a href="#">Possum Supplies</a></li>
+                        <li><a href="#">Ferret Supplies</a></li>
+                        <li><a href="#">Hermit Crabs Supplies</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- main -->
+<main>
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> &gt; <a href="productlist.html">Dog Shop</a> &gt; <a href="productbrand.html">Dog Food</a> &gt; <a href="mealsformutts.html">Meals for Mutts</a>
+    </div>
+    <section class="brand-content">
+        <h1>Meals for Mutts</h1>
+        <div class="brand-text-image-container">
+            <div class="brand-text-section">
+                <div class="brand-section">
+                    <h2>Why Choose Meals For Mutts:</h2>
+                    <ul>
+                        <li>Contains essential nutrients</li>
+                        <li>Australian made with high-quality proteins</li>
+                        <li>Helps prevent skin problems, lack of energy, bathroom problems, and dull coats</li>
+                        <li>Contains DHA for brain and nervous system development in puppies</li>
+                    </ul>
+                </div>
+                <div class="brand-section">
+                    <h2>Best Types of Meals:</h2>
+                    <ul>
+                        <li>Fresh fruits and vegetables: Grain-free options with vegetables and coconut oil, suitable for dogs with allergies and sensitivities.</li>
+                        <li>Lean proteins: Various quality proteins available for fussy dogs and those with sensitivities.</li>
+                        <li>Complex carbohydrates: Brown rice, sweet potatoes, and oatmeal for dogs needing extra energy.</li>
+                        <li>Vitamins and Minerals: Packed with high-quality nutrients to support overall health.</li>
+                    </ul>
+                </div>
+                <div class="brand-section">
+                    <h2>Nutritional Benefits of Popular Dog Foods:</h2>
+                    <ul>
+                        <li>Wide flavor selection to please even picky dogs</li>
+                        <li>Organic and holistic ingredients without fillers or additives</li>
+                        <li>Formulas designed with essential vitamins and minerals, including pre and probiotics, DHA, calcium, omega fatty acids, and antioxidants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brand-image-section">
+                <img src="infoimages\Group 389.jpg" alt="Dog Food Image">
+            </div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- filter -->
+    <div class="filter-container">
+        <select id="sort-filter">
+            <option value="default">Default</option>
+            <option value="price-low-high">Price: Low - High</option>
+            <option value="price-high-low">Price: High - Low</option>
+            <option value="name-a-z">Name: A - Z</option>
+            <option value="name-z-a">Name: Z - A</option>
+        </select>
+        <button id="side-filter-btn"><i class="fas fa-filter"></i></button>
+    </div>
+
+    <!-- products of meals for mutts -->
+
+    <div class="product-grid">
+        <!-- Product Item -->
+        <div class="product-item">
+            <a href="productpage.html"><img src="infoimages\meals for mutts\meals-for-mutts-turkey-salmon--sardine-puppy-formula-2.5kg.png" alt="Product 9"></a>
+            <a href="productpage.html"><h3>Meals For Mutts Turkey, Salmon & Sardine PUPPY 2.5kg</h3></a>
+            <p class="price">$38.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="productpage.html"><img src="infoimages\meals for mutts\meals-for-mutts-turkey-salmon--sardine-puppy-formula-2.5kg.png" alt="Product 10"></a>
+            <a href="productpage2.html"><h3>Meals For Mutts Turkey, Salmon & Sardine PUPPY 9kg</h3></a>
+            <p class="price">$82.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="productpage.html"><img src="infoimages\meals for mutts\meals-for-mutts-turkey-salmon--sardine-puppy-formula-2.5kg.png" alt="Product 11"></a>
+            <a href="productpage2.html"><h3>Meals For Mutts Turkey, Salmon & Sardine PUPPY 20kg</h3></a>
+            <p class="price">$154.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div> 
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-grain-free-puppy-turkey--chicken-2.5kg.png" alt="Product 12"></a>
+            <a href="productpage3.html"><h3>Meals for Mutts GRAIN FREE Turkey & Chicken PUPPY 2.5kg</h3></a>
+            <p class="price">$40.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-grain-free-puppy-turkey--chicken-9kg.png" alt="Product 13"></a>
+            <h3>Meals for Mutts GRAIN FREE Turkey & Chicken PUPPY 9kg</h3>
+            <p class="price">$87.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-grain-free-puppy-turkey--chicken-9kg.png" alt="Product 14"></a>
+            <h3>Meals for Mutts GRAIN FREE Turkey & Chicken PUPPY 20kg</h3>
+            <p class="price">$159.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-bacon--egg-2.png" alt="Product 15"></a>
+            <h3>Meals For Mutts Bacon & Egg 2.5kg</h3>
+            <p class="price">$40.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-bacon--egg-14kg.png" alt="Product 16"></a>
+            <h3>Meals For Mutts Bacon & Egg 14kg</h3>
+            <p class="price">$129.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-kangaroo-2.png" alt="Product 17"></a>
+            <h3>Meals For Mutts Kangaroo GRAIN FREE 2.5kg</h3>
+            <p class="price">$40.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-kangaroo-14kg.png" alt="Product 18"></a>
+            <h3>Meals For Mutts Kangaroo GRAIN FREE 14kg</h3>
+            <p class="price">$129.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-roo-discs.png" alt="Product 19"></a>
+            <h3>Meals for Mutts Roo Discs 200g</h3>
+            <p class="price">$19.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div> 
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-goat-2.png" alt="Product 20"></a>
+            <h3>Meals For Mutts Goat GRAIN FREE 2.5kg</h3>
+            <p class="price">$40.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-goat-14kg.png" alt="Product 21"></a>
+            <h3>Meals For Mutts Goat GRAIN FREE 14kg</h3>
+            <p class="price">$129.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-kangaroo--lamb-2.5kg.png" alt="Product 22"></a>
+            <h3>Meals For Mutts DOG Kangaroo & Lamb 2.5kg</h3>
+            <p class="price">$38.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-kangaroo--lamb-2.5kg.png" alt="Product 23"></a>
+            <h3>Meals For Mutts DOG Kangaroo & Lamb 9kg</h3>
+            <p class="price">$77.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-kangaroo--lamb-2.5kg.png" alt="Product 24"></a>
+            <h3>Meals For Mutts DOG Kangaroo & Lamb 20kg</h3>
+            <p class="price">$144.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-salmon--sardine-2.5kg.png" alt="Product 25"></a>
+            <h3>Meals For Mutts Salmon & Sardine 2.5kg</h3>
+            <p class="price">$38.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-salmon--sardine-2.5kg.png" alt="Product 26"></a>
+            <h3>Meals For Mutts Salmon & Sardine 9kg</h3>
+            <p class="price">$77.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-salmon--sardine-2.5kg.png" alt="Product 27"></a>
+            <h3>Meals For Mutts Salmon & Sardine 20kg</h3>
+            <p class="price">$144.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div> 
+        <div class="product-item">
+            <a href="product-page.html"><img src="infoimages\meals for mutts\meals-for-mutts-salmon--sardine-2.5kg.png" alt="Product 28"></a>
+            <h3>Meals For Mutts Salmon & Sardine LARGER SIZE KIBBLE 20kg</h3>
+            <p class="price">$144.95</p>
+            <hr>
+            <button class="add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+    <!-- change page -->
+    <div class="pagination">
+        <span id="page-numbers">
+            <span class="page-control">&lt;</span>
+            <span class="page-number current-page">1</span>
+            <a href="mealsformutts2.html"><span class="page-number">2</span></a>
+            <a href="mealsformutts2.html"><span class="page-control">&gt;</span></a>
+        </span>
+    </div>
+
+</main>
+
+<!-- footer -->
+
+<footer>
+    <div class="footer-container">
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-google-plus"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="customer-service">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Term & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Shipping & Return</a></li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="partner-stores">
+            <h3>Our Partner Stores</h3>
+            <ul>
+                <li><a href="#">Petfood Plus</a></li>
+                <li><a href="#">www.petfoodplus.com.au</a></li>
+                <li><a href="#">Cushions Direct</a></li>
+                <li><a href="#">www.cushionsdirect.com.au</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="payment-options">
+        <img src="infoimages\image 26.jpg" alt="PayPal">
+        <img src="infoimages\image 27.jpg" alt="MasterCard">
+        <img src="infoimages\image 29.jpg" alt="Visa">
+        <img src="infoimages\image 30.jpg" alt="CommWeb">
+        <img src="infoimages\image 29.jpg" alt="RapidSSL">
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Pet Shop Direct | Domain hosted by Melbourne IT</p>
+    </div>
+</footer>
+<script src="homepage.js"></script>
+</body>
+</html>
+
